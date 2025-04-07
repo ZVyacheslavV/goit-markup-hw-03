@@ -19,7 +19,7 @@
 body {
     font-family: var(--font-family);
     color: var(--slate);
-    /* letter-spacing: 0.02em; */
+    letter-spacing: 0.02em;
     background-color: var(--white);
 }
 
@@ -147,6 +147,7 @@ ol {
 }
 
 /* ==Main styles== */
+/* hero section */
 .hero-section {
     background-color: var(--navy-blue);
     /* 3 */
@@ -175,23 +176,30 @@ ol {
     letter-spacing: 0.04em;
     color: var(--white);
     /* 3 */
-    /* margin: 0 auto; */
     border-radius: 4px;
     padding: 16px 32px;
     width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-    /* margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 188px; */
     margin: 0 auto;
-    /* display: block; */
-
+    display: block;
+    border: none;
 }
 
 .order-btn:focus,
 .order-btn:hover {
     background-color: var(--ocean);
+}
+
+/* approach section */
+.approach-list {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.approach-litem {
+    flex-basis: calc((100% - 72px) / 4);
 }
 
 .visually-hidden {
@@ -230,6 +238,7 @@ ol {
     line-height: 150%;
 }
 
+/* team section */
 .team-section {
     background-color: var(--cloud);
 }
@@ -249,6 +258,8 @@ ol {
 .team-facelist .section-text {
     text-align: center;
 }
+
+/* portfolio section */
 
 /* ==Footer styles== */
 .page-footer {
