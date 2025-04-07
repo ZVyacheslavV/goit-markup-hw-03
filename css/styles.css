@@ -1,0 +1,177 @@
+/* ==GLOBAL styles== */
+:root {
+--iris: #4D5AE5;
+--ocean: #404BBF;
+--navy-blue: #2E2F42;
+--green: #31D0AA;
+--slate: #434455;
+--light-slate: #8E8F99;
+--cornflower: #E7E9FC;
+--cloud: #F4F4FD;
+--navy-blue-modal: rgba(46, 47, 66, 0.4);
+--grey: rgba(46, 47, 66, 0.7);
+--white: #FFFFFF;
+--dairy: #FCFCFC;
+--font-family: "Roboto", sans-serif;
+--second-family: "Raleway", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--slate);
+    /* letter-spacing: 0.02em; */
+    background-color: var(--white);
+}
+
+ul {
+   list-style-type: none; 
+}
+
+img {
+    display: block;
+    max-width: 100%;
+
+/* h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+} */
+
+/* ==PAGE styles== */
+.logo-link {
+    font-family: var(--second-family);
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    color: var(--iris);
+}
+
+.logo-link .logo-link-studpart {
+    color: var(--navy-blue);
+}
+
+.pagenav-list .link {
+    color: var(--navy-blue);
+    text-decoration: none;
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
+
+.address-list .link {
+    color: var(--slate);
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    /* font-style: normal; */
+}
+
+.addressclass {
+    font-style: normal;
+}
+
+.pagenav-list .link:hover,
+.pagenav-list .link:focus,
+.address-list .link:hover,
+.address-list .link:focus {
+    color: var(--ocean);
+}
+
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 107%;
+    text-align: center;
+    color: var(--white);
+    letter-spacing: 0.02em;
+}
+
+.order-btn {  
+    font-family: "Roboto", sans-serif;   
+    cursor: pointer;
+    background-color: var(--iris);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--white);
+}
+
+.order-btn:focus,
+.order-btn:hover {
+    background-color: var(--ocean);
+}
+
+.section-title {
+    color: var(--navy-blue);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+ }
+
+.section-subtitle {
+    color: var(--navy-blue);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+}
+
+.section-text {
+    font-size: 16px;
+    line-height: 150%;
+}
+
+.team-section .team-facelist {
+    background-color: var(--white);
+}
+
+.team-facelist-item {
+    background-color: var(--white);
+}
+
+.team-facelist .section-subtitle {
+    text-align: center;
+}
+
+.team-facelist .section-text {
+    text-align: center;
+}
+
+.page-footer .logo-link .logo-link-studpart {
+    color: var(--cloud);
+}
+
+.page-footer .footer-text {
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--cloud);
+}
+
+
+
+.hero-section {
+    background-color: var(--navy-blue);
+}
+
+.team-section {
+    background-color: var(--cloud);
+}
+
+.page-footer {
+    background-color: var(--navy-blue);
+}
+
