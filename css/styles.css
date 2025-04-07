@@ -151,7 +151,7 @@ ol {
 .hero-section {
     background-color: var(--navy-blue);
     /* 3 */
-    padding: 188px;
+    padding: 188px 0;
 }
 
 .hero-title {
@@ -163,7 +163,7 @@ ol {
     letter-spacing: 0.02em;
     /* 3 */
     margin: 0 auto 48px auto;
-    width: 496px;
+    max-width: 496px;
 }
 
 .order-btn {  
@@ -178,7 +178,7 @@ ol {
     /* 3 */
     border-radius: 4px;
     padding: 16px 32px;
-    width: 169px;
+    min-width: 169px;
     height: 56px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin: 0 auto;
@@ -258,7 +258,7 @@ ol {
 }
 
 .employee-text {
-    padding: 32px 16px;
+    padding: 32px 0;
 }
 
 .team-facelist-item {
@@ -298,7 +298,7 @@ ol {
 /* ==Footer styles== */
 .page-footer {
     background-color: var(--navy-blue);
-    padding: 100px;
+    padding: 100px 0;
 }
 
 .footer-logo .logo-link-studpart {
@@ -317,5 +317,5 @@ ol {
     color: var(--cloud);
     /* 3 */
     /* margin-top: 16px; */
-    width: 264px;
+    max-width: 264px;
 }
