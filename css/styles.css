@@ -86,7 +86,7 @@ ol {
     color: var(--iris);
     /* 3 */
     display: block;
-    padding: 24px;
+    padding: 24px 0;
     margin-right: 76px;
 }
 
@@ -264,6 +264,8 @@ ol {
 .team-facelist-item {
     background-color: var(--white);
     flex-basis: calc((100% - 72px) / 4);
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
 }
 
 .team-facelist .section-subtitle {
@@ -288,11 +290,15 @@ ol {
 
 .portapp-text {
     padding: 32px 16px;
+    border-bottom: 1px solid var(--cornflower);
+    border-left: 1px solid var(--cornflower);
+    border-right: 1px solid var(--cornflower);
 }
 
 /* ==Footer styles== */
 .page-footer {
     background-color: var(--navy-blue);
+    padding: 100px;
 }
 
 .page-footer .logo-link .logo-link-studpart {
