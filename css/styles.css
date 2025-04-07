@@ -90,7 +90,7 @@ ol {
     margin-right: 76px;
 }
 
-.logo-link .logo-link-studpart {
+.header-logo .logo-link-studpart {
     color: var(--navy-blue);
 }
 
@@ -301,12 +301,20 @@ ol {
     padding: 100px;
 }
 
-.page-footer .logo-link .logo-link-studpart {
+.footer-logo .logo-link-studpart {
     color: var(--cloud);
+}
+
+.footer-logo {
+    padding-bottom: 16px;
 }
 
 .page-footer .footer-text {
     font-size: 16px;
     line-height: 150%;
     color: var(--cloud);
+    /* 3 */
+    /* margin-top: 16px; */
+    display: inline-block;
+    width: 264px;
 }
