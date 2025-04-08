@@ -1,4 +1,4 @@
-/* == global styles == */
+/* == Global styles == */
 :root {
 --iris: #4D5AE5;
 --ocean: #404BBF;
@@ -67,7 +67,7 @@ ol {
     padding-left: 0;
 }
 
-/* == header styles == */
+/* == Header styles == */
 /* 3 */
 .page-header {
     border-bottom: 1px solid var(--cornflower);
@@ -154,7 +154,7 @@ ol {
     color: var(--ocean);
 }
 
-/* == page styles == */
+/* == Page styles == */
 /* -- hero section -- */
 .hero-section {
     background-color: var(--navy-blue);
@@ -308,7 +308,7 @@ ol {
     border-right: 1px solid var(--cornflower);
 }
 
-/* == footer styles == */
+/* == Footer styles == */
 .page-footer {
     background-color: var(--navy-blue);
     /* 3 */
