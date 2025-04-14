@@ -1,4 +1,4 @@
-/* == Global styles == */
+/* == GLOBAL == */
 :root {
 --iris: #4D5AE5;
 --ocean: #404BBF;
@@ -41,7 +41,7 @@ img {
     padding: 120px 0;
 }
 
-/* -- reset -- */
+/* -- Reset -- */
 a {
     text-decoration: none;
 }
@@ -67,7 +67,7 @@ ol {
     padding-left: 0;
 }
 
-/* == Header styles == */
+/* == HEADER == */
 /* 3 */
 .page-header {
     border-bottom: 1px solid var(--cornflower);
@@ -154,8 +154,8 @@ ol {
     color: var(--ocean);
 }
 
-/* == Main styles == */
-/* -- hero section -- */
+/* == MAIN == */
+/* -- Hero section -- */
 .hero-section {
     background-color: var(--navy-blue);
     /* 3 */
@@ -199,7 +199,7 @@ ol {
     background-color: var(--ocean);
 }
 
-/* -- approach section -- */
+/* -- Approach section -- */
 /* 3 */
 .approach-list {
     display: flex;
@@ -226,7 +226,7 @@ ol {
     overflow: hidden;
 }
 
-/* -- page main styles -- */
+/* -- Page main styles -- */
 .section-title {
     color: var(--navy-blue);
     font-weight: 700;
@@ -254,7 +254,7 @@ ol {
     line-height: 150%;
 }
 
-/* -- team section -- */
+/* -- Team section -- */
 .team-section {
     background-color: var(--cloud);
 }
@@ -287,7 +287,7 @@ ol {
     text-align: center;
 }
 
-/* -- portfolio section -- */
+/* -- Portfolio section -- */
 /* 3 */
 .portfolio-list {
     display: flex;
@@ -309,7 +309,7 @@ ol {
     border-right: 1px solid var(--cornflower);
 }
 
-/* == Footer styles == */
+/* == FOOTER == */
 .page-footer {
     background-color: var(--navy-blue);
     /* 3 */
